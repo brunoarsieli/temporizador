@@ -1,6 +1,6 @@
 from winsound import PlaySound, SND_FILENAME
 from time import sleep
-tempo = 10
+tempo = int(input("Deseja que o alarme toque depois de quantos minutos? "))*60
 horas = 0
 for t in range(1, tempo + 1):
     tempo -= 1
