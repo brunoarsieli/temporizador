@@ -1,8 +1,8 @@
 from winsound import PlaySound, SND_FILENAME
 from time import sleep
-tempo = 1501
+tempo = 900
 horas = 0
-for t in range(1, 1501):
+for t in range(1, tempo + 1):
     tempo -= 1
     minutos = tempo/60
     if minutos <= 60:
